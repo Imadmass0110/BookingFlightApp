@@ -52,7 +52,7 @@ namespace FlightBookingAPI
 
             app.UseCors("AllowSpecificOrigin");
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
 
             app.UseRouting();
 
